@@ -1,5 +1,5 @@
 const opc1 = document.getElementById('op1');
-const webhookURL = alert("key: ");
+const webhookURL = prompt("key: ");
 
 opc1.addEventListener('click', ()=>{
 
