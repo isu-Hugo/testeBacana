@@ -1,8 +1,7 @@
 const opc1 = document.getElementById('op1');
+const webhookURL = alert("key: ");
 
 opc1.addEventListener('click', ()=>{
-
-    const webhookURL = 'https://discord.com/api/webhooks/1374855526222921738/e-dP8njA6Bxpm-l1yCGBqdD__1ccn-yUxhTsD2RLltBPaMiBEzrxTyAfeST9-GiSV-ZO';
 
     const data = {
     content: `:outbox_tray: Pagamento\nValor de R$`,
